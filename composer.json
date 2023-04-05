@@ -1,0 +1,24 @@
+{
+    "name": "liu-willow/neffos",
+    "description": "websocket client for neffos(https://github.com/kataras/neffos.git)",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "workerman/workerman": "4.1.x-dev"
+    },
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "neffos\\": "src/"
+        },
+        "files": [
+            "src\\function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "liu-willow"
+        }
+    ],
+    "minimum-stability": "dev"
+}
