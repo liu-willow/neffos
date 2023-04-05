@@ -6,7 +6,7 @@
         "php": ">=7.0",
         "workerman/workerman": "4.1.x-dev"
     },
-    "license": "Apache",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "neffos\\": "src/"
